@@ -1,0 +1,11 @@
+[package]
+name = "netbrowser_url_parser"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[lib]
+name = "netbrowser_url_parser"
+path = "src/lib.rs"
+
+[dependencies]

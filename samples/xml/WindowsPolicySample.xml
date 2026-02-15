@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NetBrowserPolicy>
+  <Policies>
+    <Policy name="Telemetry" enabled="false"/>
+    <Policy name="CrashReporting" enabled="false"/>
+    <Policy name="DefaultSearch" value="https://duckduckgo.com/?q=%s"/>
+  </Policies>
+</NetBrowserPolicy>

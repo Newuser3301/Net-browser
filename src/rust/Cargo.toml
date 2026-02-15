@@ -1,0 +1,3 @@
+[workspace]
+members = ["url_parser"]
+resolver = "2"

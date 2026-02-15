@@ -1,0 +1,20 @@
+# build outputs
+build/
+out/
+bin/
+obj/
+.vs/
+
+# generated
+generated/
+
+# node
+node_modules/
+dist/
+
+# rust
+target/
+
+# OS
+Thumbs.db
+.DS_Store

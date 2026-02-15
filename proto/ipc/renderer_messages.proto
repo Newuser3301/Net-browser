@@ -1,0 +1,25 @@
+syntax = "proto3";
+package netbrowser.ipc;
+
+message UrlChanged {
+  int32 tab_id = 1;
+  string url = 2;
+}
+
+message TitleChanged {
+  int32 tab_id = 1;
+  string title = 2;
+}
+
+message LoadStateChanged {
+  int32 tab_id = 1;
+  string state = 2; // "loading" | "idle" | "error"
+}
+
+message Event {
+  oneof evt {
+    UrlChanged url_changed = 1;
+    TitleChanged title_changed = 2;
+    LoadStateChanged load_state_changed = 3;
+  }
+}

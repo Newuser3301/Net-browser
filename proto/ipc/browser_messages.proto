@@ -1,0 +1,38 @@
+syntax = "proto3";
+package netbrowser.ipc;
+
+message Navigate {
+  string url = 1;
+  int32 tab_id = 2;
+}
+
+message Back {
+  int32 tab_id = 1;
+}
+
+message Forward {
+  int32 tab_id = 1;
+}
+
+message Reload {
+  int32 tab_id = 1;
+}
+
+message NewTab {
+  string url = 1;
+}
+
+message CloseTab {
+  int32 tab_id = 1;
+}
+
+message Command {
+  oneof cmd {
+    Navigate navigate = 1;
+    Back back = 2;
+    Forward forward = 3;
+    Reload reload = 4;
+    NewTab new_tab = 5;
+    CloseTab close_tab = 6;
+  }
+}

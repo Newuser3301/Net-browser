@@ -1,0 +1,12 @@
+features:
+  ipc:
+    enabled: true
+    transport: named_pipes_win
+    max_frame_bytes: 1048576
+  webui:
+    enabled: true
+    ws_bridge_port: 8787
+    http_port: 5173
+  privacy:
+    telemetry: false
+    crash_reporting: false
