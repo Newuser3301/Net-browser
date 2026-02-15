@@ -135,7 +135,7 @@ http://127.0.0.1:5173
 ---
 
 ## 🪟 Desktop GUI (Optional)
-``powershell
+```powershell
 dotnet run --project src/ui/windows_wpf/NetBrowser.Shell/NetBrowser.Shell.csproj
 ```
 Must be Bridge running.
