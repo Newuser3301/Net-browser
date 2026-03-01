@@ -49,7 +49,7 @@ This design:
 ---
 
 ## 🧬 Tech Stack (10+ languages, real use)
-
+```
 | Layer | Technology Why?
 |-----|-----------|-----|
 | Core | C / C++ | Performance, low-level IPC |
@@ -61,6 +61,7 @@ This design:
 | Contracts | Proto / YAML | Clear boundaries
 | GPU | GLSL | Graphics pipeline stub |
 | Tools | Python / Lua / Perl / Tcl | Automation & legacy vibes |
+```
 
 👉 **This is not an “artificial multi-language” — each one performs a real task.**
 
