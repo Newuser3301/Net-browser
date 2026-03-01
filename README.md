@@ -146,8 +146,6 @@ Must be Bridge running.
 ## 💡 Who Is This For?
 - 🧑‍💻 System / backend / infra developers
 - 🧠 Architecture learners
-- 📂 Portfolio / GitHub showcase
-- 🎤 Tech talk / demo to do
 - 🧪 Browser inside out enthusiasts
 
 ---
