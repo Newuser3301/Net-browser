@@ -2,7 +2,7 @@
 ### A Polyglot, IPC‑First Browser Architecture Demo
 
 **Net-browser** is not just another browser.
-This project is a **fully working marketing + engineering demo** that shows **how a modern browser can be built**.
+This project is a **engineering demo** that shows **how a modern browser can be built**.
 
 > If you are looking for a **Chrome clone** — this is not a repo.
 > If you want to see **real system design, IPC, multi‑process and multi‑language architecture** — you are welcome 😎
@@ -20,7 +20,6 @@ Today's browsers:
 - 🧱 **Process-first design** — core, bridge, UI separated
 - 🔌 **Explicit IPC contract** — who talks to whom and how is clear
 - 🧩 **Polyglot stack** — each language has its strengths
-- 🎯 **Marketing-friendly demo** — ideal for GitHub, portfolio, presentation
 
 ---
 
