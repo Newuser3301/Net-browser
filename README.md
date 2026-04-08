@@ -100,7 +100,7 @@ refreshenv
 ---
 
 ### 2️⃣ Build Core
-``powershell
+```powershell
 .\scripts\build.ps1
 ```
 
